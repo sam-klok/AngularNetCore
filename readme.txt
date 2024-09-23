@@ -10,4 +10,4 @@ cd C:\Repos\AngularNetCore\AngularNetCore\ClientApp\
 
 2. > npm run build
 
-3. Run Visual Studio as normal
+3. Run from Visual Studio as normal by pressing F5 button
