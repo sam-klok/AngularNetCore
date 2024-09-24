@@ -27,3 +27,17 @@ Error: node_modules/@types/node/stream/web.d.ts:467:13 - error TS2502: 'Readable
                 ~~~~~~~~~~~~~~~~~~~~~~~~
 3. Upgrade particular library:
 ng update  @types/node --allow-dirty
+
+4. RUn
+
+> angularnetcore@0.0.0 prestart
+> node aspnetcore-https
+
+> angularnetcore@0.0.0 start
+> run-script-os
+
+> angularnetcore@0.0.0 start:windows
+> ng serve --port 44470 --ssl --ssl-cert %APPDATA%\ASP.NET\https\%npm_package_name%.pem --ssl-key %APPDATA%\ASP.NET\https\%npm_package_name%.key
+
+Workspace extension with invalid name (defaultProject) found.
+
