@@ -12,6 +12,23 @@ cd C:\Repos\AngularNetCore\AngularNetCore\ClientApp\
 
 3. Run from Visual Studio as normal by pressing F5 button
 
+To run from Visual Studio Code.
+1. Open in VS Code
+2. Open terminal window and switch folder to client app
+    PS C:\Repos\AngularNetCore> cd .\AngularNetCore\
+    PS C:\Repos\AngularNetCore\AngularNetCore> cd .\ClientApp\
+3. use commmand
+    npm start
+
+4. notice line 
+    ** Angular Live Development Server is listening on localhost:44470, open your browser on https://localhost:44470/ **
+
+5. In the VS Code click Run & Debug
+    which will create file launch.json
+    add https://localhost:44470/ into it. 
+
+6. Run.
+
 Upgrade to Angular v16
 1. npm install @angular/cli@16.0.0
 
